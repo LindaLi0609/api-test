@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test:all": "cypress run --spec \"**/*.features\" --reporter junit --reporter-options 'mochaFile=test_results/my-test-output.xml,toConsole=true'"
+    "test:all": "cypress run --reporter junit --reporter-options 'mochaFile=test_results/my-test-output.xml,toConsole=true'"
   },
   "keywords": [],
   "author": "",
