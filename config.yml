@@ -16,13 +16,10 @@ jobs:
       - checkout
       - run: |
           # echo Hello, World!
+      - store_test_results:
+          path: 'cypress\test-results'
 
 workflows:
   my-custom-workflow:
     jobs:
       - api-test
-
-steps:
-  - run:
-  - store_test_results:
-    path: 'cypress\test-results'
