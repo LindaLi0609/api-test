@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test:all": "cypress run --spec \"**/*.features\" --reporter junit --reporter-options 'mochaFile=results/my-test-output.xml,toConsole=true'"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
     "cypress": "^10.2.0",
     "faker": "^6.6.6",
     "json-server": "^0.17.0"
+  },
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "test-results/my-test-output.xml",
+    "toConsole": true
   }
 }
