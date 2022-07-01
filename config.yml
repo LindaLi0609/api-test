@@ -54,4 +54,4 @@ jobs:
       - store_artifacts:
           path: ~/repo/testing-apis-with-cypress
       - store_test_results:
-          path: 'cypress\test_results'
+          path: 'cypress\results'
