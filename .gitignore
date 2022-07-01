@@ -2,3 +2,5 @@ node_modules
 .citcleci
 cypress/screenshots
 cypress/videos
+fixtures/data.js
+

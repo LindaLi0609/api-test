@@ -22,7 +22,6 @@ workflows:
     jobs:
       - api-test
 
-
 steps:
   - run:
   - store_test_results:
