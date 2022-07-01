@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
-    "test:all": "cypress run --reporter junit --reporter-options 'mochaFile=test_results/my-test-output.xml,toConsole=true'"
+    "test": "cypress run",
+    "test:all": "cypress run --reporter junit --reporter-options 'mochaFile=results/test_report_[hash].xml,toConsole=true'"
   },
   "keywords": [],
   "author": "",
