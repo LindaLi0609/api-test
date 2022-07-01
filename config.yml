@@ -17,7 +17,7 @@ jobs:
       - run: |
           # echo Hello, World!
       - store_test_results:
-          path: 'cypress\test-results'
+          path: 'cypress\test_results'
 
 workflows:
   my-custom-workflow:
