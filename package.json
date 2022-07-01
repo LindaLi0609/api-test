@@ -17,7 +17,7 @@
   },
   "reporter": "junit",
   "reporterOptions": {
-    "mochaFile": "test-results/my-test-output.xml",
+    "mochaFile": "results/test_report_[hash].xml",
     "toConsole": true
   }
 }
