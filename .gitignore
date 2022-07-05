@@ -1,5 +1,4 @@
 node_modules
-.circleci
 cypress/screenshots
 cypress/videos
 fixtures/data.js
